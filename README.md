@@ -64,8 +64,8 @@ I suggest that we implement an MVP of SPA that will able to do the following:
 * upon click of the Enter the FA does some quick address check and if the entered string feels like a valid address (above) makes a request to the BE;  
   BE uses entered address string to query the state address tables to find the address geom, and the fec table to find whether the address made a donation in 2020;&nbsp;  
 * if BE finds neither geom nor donation the FE displays “Address Not Found” message;  
-  if BE finds geom the FE should display a map with the entered address (see images below);&nbsp;  
-  if BE finds a donation as well the FE displays something like “An Amount of $1.00 Ha Been Donated from {address}”;  
+*  if BE finds geom the FE should display a map with the entered address (see images below);&nbsp;  
+*  if BE finds a donation as well the FE displays something like “An Amount of $1.00 Ha Been Donated from {address}”;  
   
 We probably can add this something like:
 
@@ -75,5 +75,6 @@ We probably can add this something like:
 
 
 The image model.png is a primitive model of a possible FE look.  
+
 Later this week I will add to the repository a small GUI program that models what I suggest to implement. You can wait for me or start when you like.
 
