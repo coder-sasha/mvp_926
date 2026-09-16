@@ -55,8 +55,9 @@ FEC tables have the following structure:
 
 Notice that in this table the address structure is structured differently: cntbr\_st1 includes a street number, a street name  and a unit, the field cntbr\_st2 is often but not always empty, and the next three fields are in accord with the post standard.  
 
-There is an example of sucha table: fec_2020.csv
-
+There are two example of FEC tables:  
+* fec_2020_10000.csv  
+* fec_2021_10000.csv  
 
 I suggest that we implement an MVP of SPA that will able to do the following:
 
