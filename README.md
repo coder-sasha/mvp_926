@@ -75,7 +75,8 @@ We probably can add this something like:
 * get a bell curve of donations from t\\made in202 from this zip, city, state;
 
 
-The image model.png is a primitive model of a possible FE look.  
+The image model.png is a primitive model of a possible FE look:
+![UI model](model.png)
 
 Later this week I will add to the repository a small GUI program that models what I suggest to implement. You can wait for me or start when you like.
 
